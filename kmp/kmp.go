@@ -1,7 +1,7 @@
 package kmp
 
 // 获取匹配字符串不匹配时回溯位置，当回溯位置为-1时表示需要移动主串
-func Get_NextVal(pattern string) []int {
+func GetNextVal(pattern string) []int {
 	next := make([]int, len(pattern))
 	i := 1
 	next[0] = -1
